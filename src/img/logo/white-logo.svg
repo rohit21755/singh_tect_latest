@@ -1,0 +1,35 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+      {/* Top curved part - orange/yellow gradient */}
+      <path
+        d="M10 8C10 6.34315 11.3431 5 13 5H27C28.6569 5 30 6.34315 30 8V12H10V8Z"
+        fill="url(#paint0_linear_printer_top)"
+      />
+      
+      {/* Main printer body - navy blue */}
+      <path
+        d="M8 14C6.34315 14 5 15.3431 5 17V27C5 28.6569 6.34315 30 8 30H32C33.6569 30 35 28.6569 35 27V17C35 15.3431 33.6569 14 32 14H8Z"
+        fill="#0F2B46"
+      />
+      
+      {/* Paper output - white */}
+      <rect x="10" y="22" width="20" height="12" rx="1" fill="white" />
+      
+      {/* Control panel dots */}
+      <circle cx="30" cy="19" r="1.5" fill="#56F77C" />
+      <circle cx="26" cy="19" r="1.5" fill="#FCA13D" />
+
+      {/* Gradients */}
+      <defs>
+        <linearGradient
+          id="paint0_linear_printer_top"
+          x1="10"
+          y1="5"
+          x2="30"
+          y2="12"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#FF5F6D" />
+          <stop offset="1" stopColor="#FFC371" />
+        </linearGradient>
+      </defs>
+    </svg>
