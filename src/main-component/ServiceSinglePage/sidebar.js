@@ -1,7 +1,7 @@
 import React from 'react'
 import Services from '../../api/Services';
 import { Link } from 'react-router-dom'
-import Bg from '../../img/service/service-contact.jpg'
+import Bg from '../../img/call.jpg'
 
 const ServiceSidebar = (props) => {
 
