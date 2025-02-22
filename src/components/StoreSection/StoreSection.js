@@ -59,10 +59,9 @@ const StoreSection = () => {
                                     <img src={SS4} alt="img" />
                                 </div>
                                 <div className="content">
-                                    <h3>No order minimums</h3>
+                                    <h3>Minimums Orders</h3>
                                     <p>
-                                        Connect your store to Printes, added
-                                        products, and set your own retail
+                                        Connect your store to Printes, Orders are depending on sizes and colours
                                     </p>
                                 </div>
                             </div>

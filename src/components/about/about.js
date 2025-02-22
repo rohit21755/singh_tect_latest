@@ -62,7 +62,7 @@ const about = () => {
                                     </h2>
                                 </div>
                                 <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                    A full administration printing background. Print shirts for yourself
+                                    A full administration printing background. Packaging Boxes for yourself
                                     or your online business Beautiful, customizable template,
                                 </p>
                                 <div className="row g-4">
