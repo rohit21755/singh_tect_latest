@@ -49,11 +49,15 @@ const hero = () => {
                             <ul className="list wow fadeInUp" data-wow-delay=".7s">
                                 <li>
                                     <i className="fa-sharp fa-solid fa-check"></i>
-                                    Top quality prints using the latest technology
+                                    We specialize in large-format printing, offering dimensions such as 28" x 40" and 44" x 64".
                                 </li>
                                 <li>
                                     <i className="fa-sharp fa-solid fa-check"></i>
-                                    Mix and match colors, sizes, and designs
+                                    We specialize in large-scale lamination work, including films such as PVC, BOPP, and matte finishes.
+                                </li>
+                                <li>
+                                    <i className="fa-sharp fa-solid fa-check"></i>
+                                    We provide coating services for large-format paper, including options such as aqueous and oil-based coatings.
                                 </li>
                             </ul>
                             <Link to="/contact" onClick={ClickHandler} className="theme-btn wow fadeInUp" data-wow-delay=".9s">Custom order</Link>
