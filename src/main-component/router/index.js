@@ -8,6 +8,7 @@ import ServiceSinglePage from '../ServiceSinglePage/ServiceSinglePage';
 
 import ContactPage from '../ContactPage/ContactPage';
 import ErrorPage from '../ErrorPage/ErrorPage';
+import QuotePage from '../QuotePage/QuotePage';
 
 
 const AllRoute = () => {
@@ -22,7 +23,7 @@ const AllRoute = () => {
           <Route path="home-3" element={<HomePage3 />} /> */}
           <Route path="about" element={<AboutPage />} />
           <Route path="service" element={<ServicePage />} /> 
-          
+          <Route path='quote' element={<QuotePage/>}/>
           <Route path="service-details/:slug" element={<ServiceSinglePage />} />
           {/* <Route path="project" element={<ProjectPage />} />
           <Route path="project-details/:slug" element={<ProjectSinglePage />} /> */}
