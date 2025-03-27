@@ -5,7 +5,7 @@ import Homepage from '../HomePage/HomePage'
 import AboutPage from '../AboutPage/AboutPage';
 import ServicePage from '../ServicePage/ServicePage';
 import ServiceSinglePage from '../ServiceSinglePage/ServiceSinglePage';
-
+import CareerPage from "../CareerPage/CareerPage"
 import ContactPage from '../ContactPage/ContactPage';
 import ErrorPage from '../ErrorPage/ErrorPage';
 import QuotePage from '../QuotePage/QuotePage';
@@ -35,6 +35,7 @@ const AllRoute = () => {
           <Route path='news' element={<BlogPage />} />
           <Route path='blog-single/:slug' element={<BlogDetails />} /> */}
           <Route path='contact' element={<ContactPage />} />
+          <Route path='career' element={<CareerPage />} />
           <Route path='404' element={<ErrorPage />} />
         </Routes>
       </BrowserRouter>

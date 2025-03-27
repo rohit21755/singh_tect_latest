@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import SimpleReactValidator from 'simple-react-validator';
-
+import axios from 'axios';
 const ContactForm = () => {
     const [formData, setFormData] = useState({
         name: '',
@@ -18,9 +18,27 @@ const ContactForm = () => {
         });
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
+    
         if (simpleValidator.current.allValid()) {
+            try {
+                const response = await axios.post("http://localhost:4000/contact-form/add", formData, {
+                    headers: {
+                        "Content-Type": "application/json"
+                    }
+                });
+    
+                if (response.status === 201) {
+                    alert("Message sent successfully!");
+                    setFormData({ name: '', email: '', message: '' }); // Clear form after success
+                } else {
+                    alert("Something went wrong. Please try again.");
+                }
+            } catch (error) {
+                console.error("Error submitting form:", error);
+                alert("Failed to send message.");
+            }
         } else {
             simpleValidator.current.showMessages();
             setFormData({ ...formData });
