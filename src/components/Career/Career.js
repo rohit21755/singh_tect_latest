@@ -4,7 +4,6 @@ import InfIcon1 from '../../img/icon/location.png';
 import InfIcon2 from '../../img/icon/12.svg';
 import InfIcon3 from '../../img/icon/13.svg';
 import './career.css';
-import { use } from 'react';
 // const jobListings = [
 //     { id: 1, title: "Software Engineer", description: "Develop and maintain software applications.", experience: "2+ years", type: "Full-time", location: "New York, USA" },
 //     { id: 2, title: "UI/UX Designer", description: "Design user interfaces and improve user experience.", experience: "3+ years", type: "Remote", location: "London, UK" },
