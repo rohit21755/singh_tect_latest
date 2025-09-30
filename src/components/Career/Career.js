@@ -33,7 +33,7 @@ const Careerpage = () => {
     }, []);
     const fetchJobs = async () => {
         try {
-            const response = await axios.get("http://localhost:4000/job-application");
+            const response = await axios.get("https://singh-tech-backend-1.onrender.com/job-application");
             setJobListings(response.data);
         } catch (error) {
             console.error("Error fetching jobs:", error);
@@ -44,7 +44,7 @@ const Careerpage = () => {
         e.preventDefault();
         try {
             console.log(formData);
-            const response = await axios.post("http://localhost:4000/jobs-form/create", formData);
+            const response = await axios.post("https://singh-tech-backend-1.onrender.com/jobs-form/create", formData);
 
             if (response.status === 201) {
                 alert("Application submitted successfully!");

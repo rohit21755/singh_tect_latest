@@ -23,7 +23,7 @@ const ContactForm = () => {
     
         if (simpleValidator.current.allValid()) {
             try {
-                const response = await axios.post("http://localhost:4000/contact-form/add", formData, {
+                const response = await axios.post("https://singh-tech-backend-1.onrender.com/contact-form/add", formData, {
                     headers: {
                         "Content-Type": "application/json"
                     }

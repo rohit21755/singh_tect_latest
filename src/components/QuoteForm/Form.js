@@ -46,8 +46,9 @@ export const Form = () => {
         Object.entries(formData).forEach(([key, value]) => form.append(key, value));
         if (selectedFile) form.append("artwork", selectedFile);
 
+        // https://singh-tech-backend-1.onrender.com
         try {
-            const response = await axios.post("http://localhost:4000/orders/submit", form, {
+            const response = await axios.post("https://singh-tech-backend-1.onrender.com/orders/submit", form, {
                 headers : {
                     "Content-Type": "multipart/form-data"
                 }
