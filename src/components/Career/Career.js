@@ -24,6 +24,7 @@ const Careerpage = () => {
         jobId: ''
     });
     const [jobListings, setJobListings] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
     };
@@ -36,6 +37,8 @@ const Careerpage = () => {
             setJobListings(response.data);
         } catch (error) {
             console.error("Error fetching jobs:", error);
+        } finally {
+            setIsLoading(false);
         }
     };
 
@@ -87,7 +90,7 @@ const Careerpage = () => {
                                 <div className="icon"><img src={InfIcon2} alt="icon-img" /></div>
                                 <div className="content">
                                     <h3>Phone Number</h3>
-                                    <p>+1255 - 568 - 6523 <br /> +1255 - 568 - 6523</p>
+                                    <p>+91-8920519220<br /></p>
                                 </div>
                             </div>
                         </div>
@@ -109,17 +112,32 @@ const Careerpage = () => {
                 <div className="container">
                     <h2 className="section-title text-center">Open Positions</h2>
                     <div className="row">
-                        {jobListings.map((job) => (
-                            <div key={job.id} className="col-lg-4 col-md-6">
-                                <div className="job-card">
-                                    <h3>{job.title}</h3>
-                                    <p>{job.description}</p>
-                                    <p><strong>Experience:</strong> {job.experience}</p>
-                                    <p><strong>Type:</strong> {job.type}</p>
-                                    <p><strong>Location:</strong> {job.location}</p>
+                        {isLoading ? (
+                            <div className="col-12">
+                                <div className="text-center">
+                                    <p>Loading jobs...</p>
                                 </div>
                             </div>
-                        ))}
+                        ) : jobListings.length > 0 ? (
+                            jobListings.map((job) => (
+                                <div key={job.id} className="col-lg-4 col-md-6">
+                                    <div className="job-card">
+                                        <h3>{job.title}</h3>
+                                        <p>{job.description}</p>
+                                        <p><strong>Experience:</strong> {job.experience}</p>
+                                        <p><strong>Type:</strong> {job.type}</p>
+                                        <p><strong>Location:</strong> {job.location}</p>
+                                    </div>
+                                </div>
+                            ))
+                        ) : (
+                            <div className="col-12">
+                                <div className="text-center">
+                                    <h3>NO jobs</h3>
+                                    <p>There are currently no job openings available. Please check back later.</p>
+                                </div>
+                            </div>
+                        )}
                     </div>
                 </div>
             </section>

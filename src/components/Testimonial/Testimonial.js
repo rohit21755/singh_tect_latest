@@ -54,7 +54,7 @@ const Testimonial = () => {
                                 <SwiperSlide>
                                     <div className="testimonial-content mt-4 mt-md-0">
                                         <p>
-                                        Working with Singh Tech Printing was a fantastic experience. The print quality was top-notch, and they delivered on time. Highly professional and attentive to our needs
+                                        Working with PS Offset Company was a fantastic experience. The print quality was top-notch, and they delivered on time. Highly professional and attentive to our needs
                                         </p>
                                         <div className="client-info">
                                             <h3>

@@ -40,7 +40,7 @@ const hero = () => {
                             <h6 className="wow fadeInUp">Offset Printing Solutions</h6>
                             <h1 className="wow fadeInUp" data-wow-delay=".3s">
                                 Produce Printing,
-                                <span>Art & Sticker <img src={Shape6} alt="img" /></span>..
+                                <span>Art & Sticker <img src={Shape6} alt="img" /></span>.
                             </h1>
                             <p className="wow fadeInUp" data-wow-delay=".5s">
                                 Beautiful, customizable template, with a ton of web blocks <br />

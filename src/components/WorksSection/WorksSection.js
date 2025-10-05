@@ -33,7 +33,7 @@ const WorksSection = (props) => {
                                 <div className="section-title">
                                     <h6 className="wow fadeInUp">More about us</h6>
                                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                                    The <span><img src={Ws5} alt="img" />Singh Tech Printing</span>   Difference
+                                    The <span><img src={Ws5} alt="img" />PS Offset Company</span>   Difference
                                         
                                     </h2>
                                 </div>

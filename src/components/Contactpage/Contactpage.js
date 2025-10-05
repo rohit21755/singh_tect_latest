@@ -68,7 +68,7 @@ const Contactpage = () => {
                                 <div className="map-content-area">
                                     <h3 className="wow fadeInUp" data-wow-delay=".3s"> Get In Touch</h3>
                                     <p className="wow fadeInUp" data-wow-delay=".5s">
-                                    The team at Singh Tech Printing comprises highly skilled craftsmen equipped with cutting-edge technology, a professional and experienced customer service team, a talented group of designers, and a meticulous, dedicated support staff.
+                                    The team at PS Offset Company comprises highly skilled craftsmen equipped with cutting-edge technology, a professional and experienced customer service team, a talented group of designers, and a meticulous, dedicated support staff.
 
 Discover our high-quality packaging, brochures, and flyers, expertly crafted to meet your needs. Coming soon, we’ll be expanding our services to include graphic design, branding, pull-up banners, posters, vehicle signage, window decals, and much more.
 If you’re looking for premium print materials that are fast, cost-effective, and produced using state-of-the-art printing equipment, we’re here to help.

@@ -50,7 +50,7 @@ const About2 = (props) => {
                                     </h2>
                                 </div>
                                 <p className="mt-3 mt-md-0 wow fadeInUp" >
-                                At Singh Tech Printing, we are dedicated to delivering high-quality print solutions that help your business stand out. With years of experience in the industry, we combine cutting-edge technology and creativity to provide custom prints that leave a lasting impression.
+                                At PS Offset Company, we are dedicated to delivering high-quality print solutions that help your business stand out. With years of experience in the industry, we combine cutting-edge technology and creativity to provide custom prints that leave a lasting impression.
                                 </p>
                                 <ul className="about-list wow fadeInUp">
                                     <li>
