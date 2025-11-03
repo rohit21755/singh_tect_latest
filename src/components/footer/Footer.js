@@ -47,7 +47,7 @@ const Footer = () => {
                                     <ul className="contact-list">
                                         <li>
                                             <i className="fa-sharp fa-solid fa-phone-volume"></i>
-                                            <a href="tel:+8060008899">+806 (000) 88 99</a>
+                                            <a href="tel:+8060008899">+91-8920519220</a>
                                         </li>
                                         <li>
                                             <i className="fa-sharp fa-solid fa-envelope"></i>

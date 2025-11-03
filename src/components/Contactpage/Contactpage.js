@@ -35,8 +35,7 @@ const Contactpage = () => {
                                 <div className="content">
                                     <h3>Phone Number</h3>
                                     <p>
-                                        +1255 - 568 - 6523 4374-221 <br />
-                                        +1255 - 568 - 6523
+                                        +91-8920519220
                                     </p>
                                 </div>
                             </div>
