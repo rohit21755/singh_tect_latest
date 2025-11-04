@@ -11,10 +11,11 @@ import ProcessSectionS2 from '../../components/ProcessSectionS2/ProcessSectionS2
 
 import CursorMaus from '../../components/CursorMaus/CursorMaus';
 const AboutPage = () => {
+    const about="PS Offset Company is a full-service printing and packaging firm dedicated to delivering high-quality results with precision and reliability. With over two years of experience, we specialize in offset printing, packaging materials, flyers, and custom print solutions for both corporate and retail clients."
     return (
         <Fragment>
             <Navbar hclass={'header-section-2 style-two'} />
-            <PageTitle pageTitle={'Digital printing Service'} pagesub={'About Company'} />
+            <PageTitle pageTitle={'Digital printing Service'} pagesub={'About Company'} content={about}/>
             <About2 hclass={'about-section section-padding'} />
             <MarqueeSection hclass={'marquee-section'} />
             {/* <ServiceSection hclass={'service-section bg-cover section-padding'} Bg={ServiceBg} /> */}

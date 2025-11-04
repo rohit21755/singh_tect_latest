@@ -20,7 +20,7 @@ const ProcessSectionS2 = () => {
                                 <div className="content">
                                     <h3>Step 1: Choose Your Product</h3>
                                     <p>
-                                        Whether it’s business cards, brochures, or custom promotional items, choose from our wide range of high-quality print products.
+                                        Whether it’s brochures, or custom promotional items, choose from our wide range of high-quality print products.
                                     </p>
                                 </div>
                                 <div className="number">

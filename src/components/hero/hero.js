@@ -39,17 +39,16 @@ const hero = () => {
                         <div className="hero-content">
                             <h6 className="wow fadeInUp">Offset Printing Solutions</h6>
                             <h1 className="wow fadeInUp" data-wow-delay=".3s">
-                                Produce Printing,
-                                <span>Art & Sticker <img src={Shape6} alt="img" /></span>.
+                                Produce Printing.
                             </h1>
                             <p className="wow fadeInUp" data-wow-delay=".5s">
                                 Beautiful, customizable template, with a ton of web blocks <br />
-                                to create an amazing website that looks
+                                to create 
                             </p>
                             <ul className="list wow fadeInUp" data-wow-delay=".7s">
                                 <li>
                                     <i className="fa-sharp fa-solid fa-check"></i>
-                                    We specialize in large-format printing, offering dimensions such as 28" x 40" and 44" x 64".
+                                    We specialize in large-format printing, offering dimensions such as 28" x 40", 44" x 64" and 36" x 50".
                                 </li>
                                 <li>
                                     <i className="fa-sharp fa-solid fa-check"></i>

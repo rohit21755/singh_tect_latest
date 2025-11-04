@@ -105,8 +105,8 @@ export const Form = () => {
             <label>How many Sides?</label>
             <select name="sides" value={formData.sides} onChange={handleChange} className="input-field" required>
                 <option value="Single Sided">Single Sided</option>
-                <option value="Double Sided">Double Sided</option>
-                <option value="Booklet/ Book">Booklet/ Book</option>
+                {/* <option value="Double Sided">Double Sided</option> */}
+                {/* <option value="Booklet/ Book">Booklet/ Book</option> */}
             </select>
 
             <label>Paper/ Stock</label>
@@ -118,8 +118,8 @@ export const Form = () => {
                 <option value="No extra finishes">No extra finishes</option>
                 <option value="Gloss Celloglaze">Gloss Celloglaze</option>
                 <option value="Matt Celloglaze">Matt Celloglaze</option>
-                <option value="Stapled">Stapled</option>
-                <option value="Folded">Folded</option>
+                {/* <option value="Stapled">Stapled</option> */}
+                {/* <option value="Folded">Folded</option> */}
             </select>
 
             <label>Delivery</label>

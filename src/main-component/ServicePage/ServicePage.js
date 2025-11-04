@@ -18,7 +18,7 @@ const ServicePage = () => {
             <ServiceSectionS4 />
             {/* <ServiceSectionS3 /> */}
             {/* <WorksSection hclass={'about-feature-sections fix section-padding section-bg-2 pb-0'} eclass={'about-feature-wrapper'} /> */}
-            <CtaSectionS2 />
+            {/* <CtaSectionS2 /> */}
             {/* <FooterS3 /> */}
             <Footer />
             <CursorMaus />

@@ -21,7 +21,7 @@ const Products = [
         Id: '02',
         sImg: 'path_to_booklets_image',  // Replace with actual image path
         sSImg: 'path_to_booklets_small_image',  // Replace with actual image path
-        title: 'Booklets / Brochures',
+        title: ' Brochures',
         slug: 'booklets-brochures',
         description: 'Professionally designed booklets and brochures to present your business and products elegantly.',
     },

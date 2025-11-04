@@ -19,6 +19,8 @@ const PageTitle = (props) => {
                         <div className="page-heading center">
                             <h6>{props.pageTitle}</h6>
                             <h1>{props.pagesub}</h1>
+                            <p style={{
+                            }}>{props.content}</p>
                         </div>
                     </div>
                 </div>

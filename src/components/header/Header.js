@@ -38,7 +38,7 @@ const Header = (props) => {
                                 <div className="logo" >
                                     <Link onClick={ClickHandler} to="/" className="header-logo" >
                                         <img src={logo} alt="logo-img" style={{
-                                    width: '180px',
+                                    width: '80px',
                                     height: '50px',
                                 }}/>
                                     </Link>

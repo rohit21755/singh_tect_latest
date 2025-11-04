@@ -21,7 +21,7 @@ const Contactpage = () => {
                                 <div className="content">
                                     <h3>address line</h3>
                                     <p>
-                                        Bowery St, New York, 37 USA <br />
+                                        1263-1264, Phase 1 HSIIDC <br /> RAI HARYANA - 131029
                                         NY 10013,USA
                                     </p>
                                 </div>
@@ -35,7 +35,7 @@ const Contactpage = () => {
                                 <div className="content">
                                     <h3>Phone Number</h3>
                                     <p>
-                                        +91-8920519220
+                                        +91-8920519220  <br/> +91-9899152562
                                     </p>
                                 </div>
                             </div>
@@ -48,8 +48,7 @@ const Contactpage = () => {
                                 <div className="content">
                                     <h3>Mail Adress</h3>
                                     <p>
-                                        email@example.com <br />
-                                        info@yourdomain.com
+                                        psoffsetcompany@gmail.com
                                     </p>
                                 </div>
                             </div>

@@ -20,8 +20,8 @@ const FeatureSection = () => {
                                 <div className="content">
                                     <h3>Pick Products</h3>
                                     <p>
-                                        Print on 100% quality cotton for
-                                        vibrant finish and all-day
+                                         Print on 100% quality Papers for vibrant print and eye-catching
+ink ever made.
                                     </p>
                                 </div>
                             </div>
@@ -36,8 +36,8 @@ const FeatureSection = () => {
                                 <div className="content">
                                     <h3>Custom & review</h3>
                                     <p>
-                                        Print on 100% quality cotton for
-                                        vibrant finish and all-day
+                                        We can customize your desired art to metal plate for review
+before we proceed to print a ton.
                                     </p>
                                 </div>
                             </div>
@@ -52,8 +52,8 @@ const FeatureSection = () => {
                                 <div className="content">
                                     <h3>Ready for ship</h3>
                                     <p>
-                                        Print on 100% quality cotton for <br />
-                                            vibrant finish and all-day
+                                        We can do finishing such as UV Printing for feels like 3D on
+papers as well as lamination.
                                     </p>
                                 </div>
                             </div>

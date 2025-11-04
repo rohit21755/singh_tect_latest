@@ -37,8 +37,8 @@ const Footer = () => {
                                 </div>
                                 <div className="footer-content">
                                     <img src = {logo} alt="logo-img" style={{
-                                        width: '250px',
-                                        height: '100px',
+                                        width: '200px',
+                                        height: '180px',
                                     }}/>
                                     <p>
                                         A new way to make the payments easy,

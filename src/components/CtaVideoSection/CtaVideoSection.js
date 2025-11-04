@@ -7,7 +7,7 @@ import Logo3 from '../../img/brand/brand-logo-13.png'
 import Logo4 from '../../img/brand/brand-logo-14.png'
 import Logo5 from '../../img/brand/brand-logo-15.png'
 
-
+import adidas from '../../img/about/adidas.png'
 
 const CtaVideoSection = () => {
     return (
@@ -48,13 +48,13 @@ const CtaVideoSection = () => {
                     <h4 className="text-center">We are blessed to work with leading brands <span>brands</span></h4>
                     <div className="brand-items">
                         <div className="brand-logo">
-                            <img src={Logo1} alt="img" />
+                            <img src="https://www.ace-cranes.com/public/front/images/logo.png" alt="img" />
                         </div>
                         <div className="brand-logo">
                             <img src={Logo2} alt="img" />
                         </div>
                         <div className="brand-logo">
-                            <img src={Logo3} alt="img" />
+                            <img src="" alt="img" />
                         </div>
                         <div className="brand-logo">
                             <img src={Logo4} alt="img" />

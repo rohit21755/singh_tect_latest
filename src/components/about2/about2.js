@@ -7,7 +7,7 @@ import abImg5 from '../../img/about/shape-2.png'
 import Line from '../../img/line.png'
 import author from '../../img/about/author.png'
 import Line2 from '../../img/about/line.png'
-
+import about3 from "../../img/about/about3.png"
 
 const About2 = (props) => {
 
@@ -21,14 +21,14 @@ const About2 = (props) => {
                         <div className="col-lg-6">
                             <div className="about-image-items">
                                 <div className="about-image wow img-custom-anim-top" >
-                                    <img src="https://prinoz-react.wpocean.com/static/media/t-shirt.348f2d2cd5429ca992cc.png" alt="img" />
+                                    <img style={{
+                                        borderRadius: "2%"
+                                    }} src={about3} alt="img" />
                                 </div>
                                 <div className="shape-1">
                                     <img src={abImg1} alt="img" />
                                 </div>
-                                <div className="shape-2">
-                                    <img src={abImg2} alt="img" />
-                                </div>
+                                
                                 <div className="shape-3">
                                     <img src={abImg3} alt="img" />
                                 </div>

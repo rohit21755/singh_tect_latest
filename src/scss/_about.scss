@@ -334,9 +334,9 @@
                 content: "";
                 width: 525px;
                 height: 525px;
-                border-radius: 50%;
+                // border-radius: 50%;
                 opacity: 0.2;
-                background: linear-gradient(180deg, #6F32F0 0%, #FF47EE 100%);
+                // background: linear-gradient(180deg, #6F32F0 0%, #FF47EE 100%);
 
                 @include breakpoint (max-xl){
                     width: 480px;
