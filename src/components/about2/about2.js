@@ -1,6 +1,6 @@
 import React from 'react'
 import abImg1 from '../../img/about/shape-1.png'
-import abImg2 from '../../img/about/mug1.png'
+
 import abImg3 from '../../img/about/color_cycle.png'
 import abImg4 from '../../img/about/sticer.png'
 import abImg5 from '../../img/about/shape-2.png'
@@ -83,5 +83,6 @@ const About2 = (props) => {
         </section>
     )
 }
+
 
 export default About2;
