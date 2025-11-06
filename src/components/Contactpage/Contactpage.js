@@ -22,7 +22,7 @@ const Contactpage = () => {
                                     <h3>address line</h3>
                                     <p>
                                         1263-1264, Phase 1 HSIIDC <br /> RAI HARYANA - 131029
-                                        NY 10013,USA
+                                     
                                     </p>
                                 </div>
                             </div>

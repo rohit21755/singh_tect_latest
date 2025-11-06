@@ -35,12 +35,13 @@ const Header = (props) => {
                     <div className="mega-menu-wrapper">
                         <div className="header-main">
                             <div className="header-left">
-                                <div className="logo" >
+                                <div className="logo flex" >
                                     <Link onClick={ClickHandler} to="/" className="header-logo" >
                                         <img src={logo} alt="logo-img" style={{
                                     width: '80px',
                                     height: '50px',
                                 }}/>
+                                
                                     </Link>
                                 </div>
                             </div>

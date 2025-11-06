@@ -76,30 +76,43 @@ const Careerpage = () => {
             <section className="contact-info-section fix section-padding section-bg-2">
                 <div className="container">
                     <div className="row g-4">
-                        <div className="col-lg-4 col-md-6">
+                        <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                             <div className="contact-info-items text-center">
-                                <div className="icon"><img src={InfIcon1} alt="icon-img" /></div>
+                                <div className="icon">
+                                    <img src={InfIcon1} alt="icon-img" />
+                                </div>
                                 <div className="content">
-                                    <h3>Address</h3>
-                                    <p>Bowery St, New York, 37 USA <br /> NY 10013, USA</p>
+                                    <h3>address line</h3>
+                                    <p>
+                                        1263-1264, Phase 1 HSIIDC <br /> RAI HARYANA - 131029
+                                     
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6">
+                        <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                             <div className="contact-info-items active text-center">
-                                <div className="icon"><img src={InfIcon2} alt="icon-img" /></div>
+                                <div className="icon">
+                                    <img src={InfIcon2} alt="icon-img" />
+                                </div>
                                 <div className="content">
                                     <h3>Phone Number</h3>
-                                    <p>+91-8920519220<br /></p>
+                                    <p>
+                                        +91-8920519220  <br/> +91-9899152562
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6">
+                        <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".7s">
                             <div className="contact-info-items text-center">
-                                <div className="icon"><img src={InfIcon3} alt="icon-img" /></div>
+                                <div className="icon">
+                                    <img src={InfIcon3} alt="icon-img" />
+                                </div>
                                 <div className="content">
-                                    <h3>Email Address</h3>
-                                    <p>email@example.com <br /> info@yourdomain.com</p>
+                                    <h3>Mail Adress</h3>
+                                    <p>
+                                        psoffsetcompany@gmail.com
+                                    </p>
                                 </div>
                             </div>
                         </div>
