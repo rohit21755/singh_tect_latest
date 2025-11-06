@@ -6,7 +6,7 @@ import Shape2 from '../../img/hero/vector.png'
 import Shape3 from '../../img/hero/circle.png'
 import Shape4 from '../../img/hero/arrow-up.png'
 import Shape5 from '../../img/Scroll_Down.png'
-import Shape6 from '../../img/hero/bar.png'
+
 import hero2 from '../../img/hero/information.png'
 
 
@@ -75,5 +75,6 @@ const hero = () => {
         </section>
     );
 };
+
 
 export default hero;
