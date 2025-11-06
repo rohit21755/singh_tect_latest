@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import PageTitle from '../../components/pagetitle/PageTitle'
 import ServiceSectionS4 from '../../components/ServiceSectionS4/ServiceSectionS4';
-import CtaSectionS2 from '../../components/CtaSectionS2/CtaSectionS2';
+
 import CursorMaus from '../../components/CursorMaus/CursorMaus';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/footer/Footer';
@@ -26,3 +26,4 @@ const ServicePage = () => {
     )
 };
 export default ServicePage;
+
