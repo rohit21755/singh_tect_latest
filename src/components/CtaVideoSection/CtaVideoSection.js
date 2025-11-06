@@ -1,13 +1,12 @@
 import React from 'react';
 
 import BG1 from '../../img/brand/bg.jpg'
-import Logo1 from '../../img/brand/brand-logo-11.png'
 import Logo2 from '../../img/brand/brand-logo-12.png'
-import Logo3 from '../../img/brand/brand-logo-13.png'
+
 import Logo4 from '../../img/brand/brand-logo-14.png'
 import Logo5 from '../../img/brand/brand-logo-15.png'
 
-import adidas from '../../img/about/adidas.png'
+
 
 const CtaVideoSection = () => {
     return (
@@ -69,5 +68,6 @@ const CtaVideoSection = () => {
 
     );
 };
+
 
 export default CtaVideoSection;
